@@ -81,9 +81,9 @@ public class QuizActivity extends AppCompatActivity {
                 countAnswers++;
                 if (mQuestionBank[mCurrentIndex].isAnswerTrue()){
                     countTrueAnswers++;
-                    mBgElement.setBackgroundColor(Color.GREEN);
+                    mBgElement.setBackgroundColor(Color.rgb(144,238,144));
                 } else {
-                    mBgElement.setBackgroundColor(Color.RED);
+                    mBgElement.setBackgroundColor(Color.rgb(250,128,114));
                 }
                 percantageOfCorrectAnswers(countAnswers, countTrueAnswers);
             }
@@ -97,9 +97,9 @@ public class QuizActivity extends AppCompatActivity {
                 countAnswers++;
                 if (!mQuestionBank[mCurrentIndex].isAnswerTrue()){
                     countTrueAnswers++;
-                    mBgElement.setBackgroundColor(Color.GREEN);
+                    mBgElement.setBackgroundColor(Color.rgb(144,238,144));
                 } else {
-                    mBgElement.setBackgroundColor(Color.RED);
+                    mBgElement.setBackgroundColor(Color.rgb(250,128,114));
                 }
                 percantageOfCorrectAnswers(countAnswers, countTrueAnswers);
             }
