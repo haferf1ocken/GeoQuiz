@@ -10,6 +10,11 @@
         in the Americas.</string>
     <string name="question_asia">Lake Baikal is the world\’s oldest and deepest
         freshwater lake.</string>
+    <string name="question_continents">There are 6 continents on Earth.</string>
+    <string name="question_island_australia">Australia is an island.</string>
+    <string name="question_penguins">Penguins live at the North pole.</string>
+    <string name="question_day">A day is a consequence of the Earth\'s rotation around its
+        axis.</string>
     <string name="true_button">True</string>
     <string name="false_button">False</string>
     <string name="next_button">Next</string>
