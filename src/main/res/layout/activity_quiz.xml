@@ -26,12 +26,18 @@
             android:id="@+id/true_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="5dp"
+            android:textColor="@color/colorWhite"
             android:text="@string/true_button" />
 
         <Button
             android:id="@+id/false_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="5dp"
+            android:textColor="@color/colorWhite"
             android:text="@string/false_button" />
     </LinearLayout>
 
@@ -59,6 +65,8 @@
         android:id="@+id/cheat_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/colorWhite"
         android:text="@string/cheat_button" />
 
     <TextView
@@ -70,6 +78,8 @@
         android:id="@+id/restart_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/colorWhite"
         android:text="@string/restart_button" />
 
     <TextView
